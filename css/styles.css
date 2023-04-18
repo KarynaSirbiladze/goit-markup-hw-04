@@ -212,6 +212,25 @@
       padding-top: 188px;
       padding-bottom: 188px;
 
+      max-width: 1440px;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: linear-gradient(to right,
+              rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)),
+          url(../images/people-office\ 1\ \(1\).jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+
+
+
+
+
+
+
 
 
 
@@ -286,6 +305,41 @@
 
   .goals-section-list-item {
       margin-right: 24px;
+  }
+
+  .goals-section-list-item::before {
+      display: block;
+      height: 112px;
+      background-color: var(--accent-color);
+      content: "";
+
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 8px;
+  }
+
+  .goals-section-list-item.strategy::before {
+      background-image: url(../images/Vector.svg);
+
+
+  }
+
+  .goals-section-list-item.punctuality::before {
+      background-image: url(../images/Vector\ \(1\).svg);
+
+
+  }
+
+  .goals-section-list-item.diligence::before {
+      background-image: url(../images/Vector\ \(2\).svg);
+
+
+  }
+
+  .goals-section-list-item.technologies::before {
+      background-image: url(../images/astronaut\ 1.svg);
+
+
   }
 
   .goals-section-list-item:last-child {
@@ -459,6 +513,7 @@
       text-decoration: none;
       padding-top: 102px;
       padding-bottom: 100px;
+
   }
 
   .footer-logo-web {
@@ -494,6 +549,22 @@
 
 
   }
+
+  .footer-contacts {}
+
+  .footer-contacts-title {
+      color: var(--secondary-accent-color);
+
+  }
+
+  .footer-button {
+      background-color: var(--main-accent-color);
+  }
+
+  .footer-button-icon {
+      color: var(--secondary-accent-color);
+  }
+
 
   /* Portfolio page 2 */
 
