@@ -80,6 +80,8 @@
       margin-right: auto;
       padding-left: 15px;
       padding-right: 15px;
+
+
   }
 
   .header-navigation {
@@ -513,8 +515,10 @@
       text-decoration: none;
       padding-top: 102px;
       padding-bottom: 100px;
-
+      display: inline-block;
   }
+
+
 
   .footer-logo-web {
       color: var(--main-accent-color);
@@ -550,10 +554,23 @@
 
   }
 
+  .footer-container {
+      margin-left: 0;
+      display: flex;
+  }
+
   .footer-contacts {}
+
+  .footer-contacts-list {
+      list-style-type: none;
+      display: flex;
+
+
+  }
 
   .footer-contacts-title {
       color: var(--secondary-accent-color);
+      display: inline-block;
 
   }
 
