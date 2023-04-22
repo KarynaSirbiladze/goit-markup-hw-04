@@ -837,7 +837,7 @@
   .portfolio-services-img-list-item:nth-child(3n) {}
 
   .portfolio-link {
-      color: var(--background-hero-color);
+
       display: block;
   }
 
